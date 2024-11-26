@@ -58,7 +58,7 @@ class Ui_Form(object):
         self.pushButton.setText("📁")
         self.pushButton.setObjectName("pushButton")
         self.pushButton.setToolTip("選擇檔案")
-        self.pushButton_3.setStyleSheet(button_style + "QToolTip { color: black; }")
+        self.pushButton.setStyleSheet(button_style + "QToolTip { color: black; }")
 
         self.pushButton_2 = QtWidgets.QPushButton(parent=Form)
         self.pushButton_2.setGeometry(QtCore.QRect(100, 265, 70, 41))
@@ -67,7 +67,7 @@ class Ui_Form(object):
         self.pushButton_2.setText("❌")
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_2.setToolTip("刪除選擇")
-        self.pushButton_3.setStyleSheet(button_style + "QToolTip { color: black; }")
+        self.pushButton_2.setStyleSheet(button_style + "QToolTip { color: black; }")
 
         self.pushButton_3 = QtWidgets.QPushButton(parent=Form)
         self.pushButton_3.setGeometry(QtCore.QRect(190, 265, 320, 41))
