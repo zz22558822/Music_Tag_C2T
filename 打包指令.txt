@@ -1,0 +1,1 @@
+pyinstaller -F -w --add-data ".\LOGO.ico;img" -i ".\LOGO.ico" ".\Music_Tag_C2T.py" -n "Music Tag 簡轉繁"
